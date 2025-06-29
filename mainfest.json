@@ -1,0 +1,19 @@
+{
+    "name": "Item Search PWA",
+    "short_name": "ItemSearch",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1F2937",
+    "theme_color": "#1F2937",
+    "icons": [{
+            "src": "search1.jpg",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "search5.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
