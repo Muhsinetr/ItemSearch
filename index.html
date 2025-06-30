@@ -32,17 +32,11 @@
     <script src="script.js"></script>
      <script>
         // Register service worker for PWA
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/service-worker.js')
-                    .then(registration => {
-                        console.log('Service Worker registered:', registration);
-                    })
-                    .catch(error => {
-                        console.error('Service Worker registration failed:', error);
-                    });
-            });
-        }
+       if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('/ItemSearch/service-worker.js', { scope: '/ItemSearch/' })
+        .then(() => console.log('Service Worker registered'))
+        .catch(err => console.error('Service Worker registration failed:', err));
+}
     </script>
 
 </body>
