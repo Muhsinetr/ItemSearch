@@ -1,0 +1,20 @@
+{
+    "name":"Item Search",
+    "short_name": "itemSerach",
+    "start_url":".",
+    "background_color": "white",
+    "theme_color": "#009578",
+    "display": "standalone",
+    "icons":[
+        {
+            "src": "search1.jpg",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "search5.jpg",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
