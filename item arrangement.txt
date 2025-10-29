@@ -1,0 +1,10 @@
+0 - sl.no
+1 - item Name
+2 - Purchers price
+3 - Retail
+4 - Qty
+5 - Amount
+6 - Barcode
+7 - MRP
+8 - Special
+9 - whole
